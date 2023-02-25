@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/normalize.scss">
+    <link rel="stylesheet" href="./style/style.scss">
+    <link rel="stylesheet" href="./style/media.scss">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лаборатория двигателей</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo">
+        <img src="./assets/svg/logo.svg" alt="logo">
+      </a>
+      <p class="header__descr text__descr-11">
+        Ремонтируем двигатели <br/> Hyundai и Kia с 2012 года
+      </p>
+      <div class="header__adress">
+        <img src="./assets/svg/adress.svg" alt="point" class="header__adress_img">
+        <span class="header__adress_descr text__descr-11">
+          Адрес автоцентра: Москва, <br/> Шоссейный проезд, с4 а/2
+        </span>
+      </div>
+      <div class="header__map">
+        <img src="./assets/svg/map.svg" alt="map" class="header__map_img">
+        <span class="header__map_descr text__descr-11_bold line_dotted">
+          Смотреть на карте
+        </span>
+      </div>
+      <div class="header__calc">
+        <img src="./assets/svg/calculate.svg" alt="map" class="header__calc_img">
+        <div class="header__calc_descr text__descr-11_bold line_dotted">
+          <p>
+            Рассчитать стоимость
+          </p> 
+          <span>
+            ремонта за 45 сек
+          </span> 
+        </div>
+      </div>
+      <div class="header__social">
+        <span class="header__social_descr  text__descr-11">
+          Задайте вопрос,<br/> мы сейчас онлайн
+        </span>
+        <div class="header__social_links">
+          <a href="#" class="header__social_whats-app">
+            <img src="./assets/svg/WhatsApp.svg" alt="WhatsApp">
+          </a>
+          <a href="#" class="header__social_telegram">
+            <img src="./assets/svg/Telegram.svg" alt="Telegram">
+          </a>
+          <a href="#" class="header__social_viber">
+            <img src="./assets/svg/Viber.svg" alt="Viber">
+          </a>
+        </div>
+      </div>
+      <div class="header__call">
+        <div class="header__call_time-work">
+          <div class="point"></div>
+          <span class="text__descr-12">
+            Звоните Пн-Сб 10:00 - 21:00 
+          </span>
+        </div>
+        <a href="tel:+79251033330" class="header__call-number text__descr-20">
+          +7 (925) 103 33 30 <img src="./assets/svg/arrow_down.svg" alt="arrow">
+        </a>
+        <a href="#" id="pop_up__open" class="header__call_descr  text__descr-12 line_dotted">
+          Заказать звонок <img src="./assets/svg/phone.svg" alt="phone">
+        </a>
+      </div>
+      <div class="burger">
+        <span></span>
+      </div>
+    </header>
+    <nav class="menu">
+        <ul class="menu__list">
+          <li>
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            <a href="#">услуги</a>
+          </li>
+          <li>
+            <a href="#">модели двигателей</a>
+          </li>
+          <li>
+            <a href="#">отзывы</a>
+          </li>
+          <li>
+            <a href="#">стоимость</a>
+          </li>
+          <li>
+            <a href="#">примеры работ</a>
+          </li>
+          <li>
+            <a href="#">полезные статьи</a>
+          </li>
+          <li>
+            <a href="#">о компании</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+    </nav>
+    <nav class="menu-burger">
+      <ul class="menu-burger__list">
+        <li>
+          <a href="#">услуги</a>
+        </li>
+        <li>
+          <a href="#">модели двигателей</a>
+        </li>
+        <li>
+          <a href="#">отзывы</a>
+        </li>
+        <li>
+          <a href="#">стоимость</a>
+        </li>
+        <li>
+          <a href="#">примеры работ</a>
+        </li>
+        <li>
+          <a href="#">полезные статьи</a>
+        </li>
+        <li>
+          <a href="#">о компании</a>
+        </li>
+        <li>
+          <a href="#">Контакты</a>
+        </li>
+      </ul>
+      <div class="menu-burger__adress">
+        <img src="./assets/svg/adress.svg" alt="point" class="menu-burger__adress_img">
+        <span class="menu-burger__adress_descr text__descr-14">
+          Адрес автоцентра: Москва, <br/> 
+          <b class="line_dotted"> Шоссейный проезд, с4 а/2 </b>
+        </span>
+      </div>
+      <div class="menu-burger__calc">
+        <img src="./assets/svg/calculate.svg" alt="map" class="menu-burger__calc_img">
+        <div class="menu-burger__calc_descr text__descr-14">
+          <span>
+            Рассчитать <br/> стоимость ремонта <br/> 
+            <b class="line_dotted">за 45 сек</b>
+          </span> 
+        </div>
+      </div>
+      <div class="menu-burger__social">
+        <img src="./assets/img/expert.png" alt="expert" class="menu-burger__social_img">
+        <span class="menu-burger__social_descr  text__descr-14">
+          Есть вопрос? <br/> 
+          <b>
+            Задайте его нашему <br/> мастеру онлайн
+          </b> 
+        </span>
+      </div>
+      <div class="menu-burger__social_links">
+        <a href="#" class="menu-burger__social_telegram">
+          <img src="./assets/svg/Telegram.svg" alt="Telegram">
+        </a>
+        <a href="#" class="menu-burger__social_whats-app">
+          <img src="./assets/svg/WhatsApp.svg" alt="WhatsApp">
+        </a>
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="main__scroll">
+        <div class="main__scroll_text">Scroll down</div>
+        <div class="main__scroll_line"></div>
+        <div class="main__scroll_img">
+          <img src="./assets/svg/scroll.svg" alt="scoll">
+        </div>
+      </div>
+      <div class="main__avto">
+        <h1 class="main__avto_title">
+          Профессиональный <b>ремонт</b><br/>
+          <b>двигателей</b> HYUNDAI и KIA <br/>
+          с <b>гарантией 1 год</b> за 4-7 дней 
+        </h1>
+        <p class="main__avto_descr">
+          в специализированном автосервисе полного цикла
+        </p>
+        <div class="btn__blocks">
+          <button id="btn-arrow" class="main__avto_calc btn">
+            <span>
+              Начать расчет стоимости <br/>
+              ремонта вашего двигателя
+            </span>
+            <img id="arrow" src="./assets/svg/arrow.svg" alt="arrow">
+          </button>
+          <button class="main__avto_call btn">
+            <img src="./assets/svg/WhatsAppGreen.svg" alt="wa">
+            <span>
+              Узнайте стоимость по <b>WhatsApp</b> 
+            </span>
+          </button>
+        </div>
+        <ul class="main__avto_list">
+          <li class="main__avto_item">
+            <img src="./assets/svg/galocka.svg" alt="✓">
+            <p>
+              <b>Без предоплаты.</b> <br/>
+              Оплата после ремонта
+            </p>
+          </li>
+          <li class="main__avto_item">
+            <img src="./assets/svg/galocka.svg" alt="✓">
+            <p>
+              <b>Работаем официально</b> с <br/> оформлением заказ-<br/>нарядов и чеков
+            </p>
+          </li>
+          <li class="main__avto_item">
+            <img src="./assets/svg/galocka.svg" alt="✓">
+            <p>
+              <b>Оригинальные<br/> запчасти</b>
+            </p>
+          </li>
+          <li class="main__avto_item">
+            <img src="./assets/svg/galocka.svg" alt="✓">
+            <p>
+              <b>Лучшие цены на рынке</b> благодаря прямым<br/> поставкам запчастей и собственному цеху<br/> механической обработки
+            </p>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <div class="pop_up">
+      <div class="pop_up__container">
+        <div class="pop_up__window">
+          <h3 class="pop_up__title text__title">
+            Быстро оставить заявку
+          </h3>
+          <p class="pop_up__descr text__descr-18">
+            Введите номер — позвоним вам <br/>
+            в течение 5-10 минут в рабочее время
+          </p>
+          <p class="pop_up__descr_phone text__descr-14">
+            Введите ваш номер телефона
+          </p>
+          <input 
+            type="tel"
+            name="phone"
+            id="phone" 
+            class="pop_up__phone" 
+            placeholder="+ 7 (_ _ _) _ _ _ - _ _ - _ _"/>
+          <div class="button__wrapper">
+            <input 
+              type="button" 
+              id="btn_recall"
+              class="pop_up__btn-recall button" 
+              value="Перезвоните мне" 
+              disabled="disabled"
+            />
+          </div>
+          <div class="confirm__wrapper">
+            <input type="checkbox" id="confirm" class="pop_up__confirm" >
+            <label for="confirm"></label>
+            <span class="pop_up__confirm_descr text__descr-14">
+              Нажимая кнопку вы соглашаетесь  с условиями 
+              <a href="#">
+                Политики конфиденциальности
+              </a>
+            </span>
+          </div>
+          <div class="pop_up__close">&#10006;</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
