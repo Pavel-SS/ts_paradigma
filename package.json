@@ -1,17 +1,21 @@
 {
   "name": "ts_paradigma",
   "private": true,
+  "homepage": "https://Pavel-SS.github.io/ts_paradigma",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "vite": "^4.1.0"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "imask": "^6.4.3",
     "normalize.scss": "^0.1.0",
     "sass": "^1.58.3"
